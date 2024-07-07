@@ -88,7 +88,29 @@ img {
     margin-bottom: 15px;
     margin-top: 10px;
 }
-
+video {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto; /* Center align image */
+        max-height: 350px;
+        border-radius: 8px; /* Rounded corners for image */
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); /* Soft shadow for image */
+        margin-bottom: 15px;
+        margin-top: 10px;
+    
+}
+.video-container {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center align image */
+    max-height: 350px;
+    border-radius: 8px; /* Rounded corners for image */
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); /* Soft shadow for image */
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
 ul {
     margin-left: 20px;
     list-style-type: disc;
