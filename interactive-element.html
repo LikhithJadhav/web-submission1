@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Highlights - Honkai Star Rail</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Honkai Star Rail</h1>
+            <nav>
+                <ul>
+                    <li><a href="game-overview.html">Game Overview</a></li>
+                    <li><a href="game-highlights.html">Game Highlights</a></li>
+                    <li><a href="get-started.html">How to Get Started</a></li>
+                    <li><a href="interactive-element.html">Interactive Element</a></li>
+                    <li><a href="index.html">Back to Home Page </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section id="quiz">
+            <div id="interactive-element"></div>
+        </section>
+
+        <!-- Slideshow Section -->
+        <section id="slideshow">
+            <h2>Gallery and Quotes</h2>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="HSR quote1.jpg" >
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="HSR quote2.jpg" >
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="HSR quote3.png" >
+                </div>
+                <div class="mySlides fade">
+                    <img src="HSR quote4.jpg" >
+                </div>
+
+                <!-- Navigation arrows -->
+                <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+                <a class="next" onclick="changeSlide(1)">&#10095;</a>
+            </div>
+            <br>
+
+            <!-- Dot indicators -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <p>&copy; 2024 Your Name. All rights reserved.</p>
+                <ul>
+                    <li><a href="https://hsr.hoyoverse.com/en-us/">Official Honkai Star Rail Website</a></li>
+                    <li><a href="https://www.hoyolab.com/home">Forums</a></li>
+                </ul>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </main>

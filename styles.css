@@ -1,0 +1,146 @@
+/* Reset and general styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Updated to black background */
+    color: #fff; /* Updated to white text color */
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding-top: 20px; /* Adjusted to accommodate header */
+    padding-bottom: 20px; /* Adjusted to accommodate footer */
+}
+
+section {
+    background-color: #333; /* Darker gray background */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow for section */
+    text-align: center; /* Center align content in section */
+}
+
+h2, h3, h4 {
+    color: #fff; /* White text color */
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center align image */
+    max-height: 350px;
+    border-radius: 8px; /* Rounded corners for image */
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); /* Soft shadow for image */
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+ul {
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    clear: both;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+.feedback {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.correct {
+    color: green; /* Color for correct feedback */
+}
+
+.incorrect {
+    color: red; /* Color for incorrect feedback */
+}
